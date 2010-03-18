@@ -1,0 +1,14 @@
+<h1>Zadania do wykonania</h1>
+<% @tasks.each do |t| %>
+  <p><%= t.title %></p>
+<% end %>
+<h2>Dodaj zadanie</h2>
+<% form_for :task, 
+     :url => {:controller => :tasks,
+              :action => :create
+             } do |f| %>
+  <div><%= f.text_field :title %></div>
+  <div><%= f.text_area :description %></div>
+  <div><%= submit_tag "zapisz" %></div>
+<% end %>
+
