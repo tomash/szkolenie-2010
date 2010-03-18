@@ -1,0 +1,22 @@
+Praca domowa po pierwszym spotkaniu.
+Termin: trzecie spotkanie.
+
+1) Zainstaluj (w BitNami Rubystack już jest dołączony) oraz naucz się Gita w podstawowym, niezbędnym do prostej pracy z repozytoriami zakresie. Czyli add, rm, commit, pull, push. 
+Materiałów do nauki gita są w sieci tysiące, każdy wycelowany w osoby na innym poziomie zaawansowania (od materiałów dla osób rozpoczynających przygodę z kontrolą wersji, przez tutoriale dla osób przechodzących z Subversion i CVS, po artykuły dla osób biegłych w innych rozproszonych SCM-ach). Użyj google-fu ;) Niezły zestaw odnośników dla osób o różnym stopniu zaawansowania można znaleźć na Github Guides: http://github.com/guides/home
+
+Załóż też konto na Githubie (github.com -- ta strona, na której oglądasz tę pracę domową) oraz wrzuć kod projektu ToDo, dotychczas napisany na szkoleniu, na Githuba ("add repository").
+
+Nie jest to niezbędne do skorzystania ze szkolenia, ale prace domowe wolałbym dostawać w formie linka do projektu na Githubie, a poza tym Git jest de facto standardem jeśli chodzi o SCMy w środowisku programistów Ruby.
+
+Nie trzeba się z tym też jakoś specjalnie spieszyć -- termin zrobienia pracy domowej z tego pliku jest nie do najbliższego szkolenia (2. podstawy Ruby), tylko do następnego (3. Podstawy Rails -- ActiveRecord), a zatem ponad tydzień.
+
+2) Dodaj do kontrolera Tasks akcję oraz widok "show", odpowiedzialne za wyświetlenie pojedynczego elementu Task (najlepiej w jakiejś ładnej i składnej formie).
+Podpowiedzi: 
+a) link_to (dokumentacja) z parametrem :id
+b) params[:id] w kontrolerze
+c) Item.find(ID)
+d) formatowanie daty do "polskiego" formatu (DD.MM.YYYY) za pomocą strftime
+ 
+3) Korzystając z dokumentacji Rails dorób w odpowiednich miejscach (tzn. wedle uznania) odnośniki do odpowiednich akcji kontrolera Tasks (akcje new, show, index) na każdej z podstron.
+
+4) Niech stroną główną aplikacji nie będzie już strona powitalna Rails, tylko akcja index kontrolera Tasks.
