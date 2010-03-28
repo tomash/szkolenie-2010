@@ -1,0 +1,35 @@
+Praca domowa po drugim spotkaniu.
+Termin: czwarte spotkanie.
+
+Zadania są ułożone z rosnącym stopniem trudności
+
+Proszę rozwiązania zamieścić jako metody statyczne (klasowe) klasy DrugaPracaDomowa (plik druga_praca_domowa.rb), dopiszemy sobie potem do nich testy jednostkowe.
+
+1. W jednej instrukcji (!) utwórz tablicę 6-elementową, której elementami będzie indeks danego elementu podniesiony do kwadratu. Tj. [0, 1, 4, 9, 16, 25]
+
+Podpowiedź: Array.new
+
+2. Rozwiąż szyfr:
+grgdm#5#gr#8#l#srgqlhv#gr#f}zduwhm#srwhjl
+
+wiedząc, że zastosowano szyfr taki, że:
+k -> n, a -> d, s -> v
+(nazwijmy got ROT3 ;) )
+
+Podpowiedź: String#each_byte, IO#putc.
+
+Odpowiedź do wysłania: wynik instrukcji zapisanej szyfrem.
+
+Wersja rozszerzona: zapisz deszyfrowane zdanie do osobnej zmiennej. W tym wyjątkowym wypadku można zawrzeć rozwiązanie w dwóch linijkach (jedna na inicjalizację owej osobnej zmiennej).
+
+3. Otwórz dowolny plik tekstowy (np. ten który czytasz), odczytaj i zapisz odczytaną zawartość do zmiennej klasy String.
+Odpowiedź do wysłania: jedna linijka która to robi. 
+
+4. Z życia wzięte. W Ruby 1.8.7 nastąpiła drobna zmiana w bibliotece do obsługi SMTP (względem Ruby 1.8.6 i wcześniejszych): metoda Net::SMTP#check_auth_args przyjmuje teraz dwa (zamiast jak kiedyś trzech) parametrów. Napisz kod wywołujący tę metodę z dwoma lub trzema argumentami, który wykona się poprawnie niezależnie od wersji Ruby na maszynie.
+
+Podpowiedź: Method#arity
+
+PS. Spokojnie, to nie oznacza że w Ruby rozwala się publiczne API przy zmianie trzeciej podliczby wersji ;)  To jest metoda używana wewnętrznie. Chociaż nie ukrywam natrafiłem na nią przez dziwne działanie railsowego ActionMailera.
+
+5. Sięgnij do zadań "Ruby Training" autorstwa Łukasza "Bragiego" Piestrzeniewicza i rozwiąż przynajmniej pierwsze.
+http://github.com/bragi/ruby_training
