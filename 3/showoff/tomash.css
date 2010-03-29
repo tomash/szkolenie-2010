@@ -1,0 +1,39 @@
+.title-slide img,
+.left-img img
+{
+  float: left;
+}
+
+.title-slide h4 {
+  text-align: right;
+}
+
+.title-slide h5 {
+  text-align: right;
+}
+
+pre {
+  font-size: 1.8em;
+}
+
+.topped {
+  margin-top: 100px;
+}
+
+.footnote {
+  text-align: right;
+  font-size: 2em;
+}
+
+ol {
+  list-style: decimal;
+}
+
+.numbered ol {
+  font-size: 2.5em;
+  list-style: decimal;
+}
+.numbered ol li {
+  text-align: left;
+  padding: 15px;
+}
