@@ -1,6 +1,6 @@
 # Wprowadzenie
 
-Slajdy z drugiego szkolenia
+Slajdy z trzeciego szkolenia
 
 # Oglądanie
 
