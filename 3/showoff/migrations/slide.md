@@ -28,3 +28,10 @@
 * Podstawowe metody: create table, add_column, remove_column, rename_column
 * Podstawowe typy danych: :integer, :string, :text, :float, :decimal, :datetime, :boolean
 
+!SLIDE
+
+# Migracje powinny być
+### jedynym komponentem systemu,
+### który zmienia _strukturę_ bazy
+
+## rake db:migrate
