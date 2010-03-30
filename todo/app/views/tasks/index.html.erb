@@ -1,6 +1,10 @@
 <h1>Zadania do wykonania</h1>
 <% @tasks.each do |t| %>
-  <p><%= t.title %></p>
+  <p><%= t.title %>
+    <% if t.priority %>
+      <b><%= t.priority.name %></b>
+    <% end %>
+  </p>
 <% end %>
 <h2>Dodaj zadanie</h2>
 <% form_for :task, 
