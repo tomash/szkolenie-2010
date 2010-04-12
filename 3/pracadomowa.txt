@@ -1,0 +1,9 @@
+Zadania są ułożone z rosnącym stopniem trudności. Wybiegają trochę do przodu, ale po 4. szkoleniu powinno być wszystko (no, prawie, na tym polega wartościowa praca domowa ;)) jasne.
+
+1. Counter-cache to jedna z najprostszych technik optymalizacyjnych (i jednocześnie jedna z "brudnych" z powodu ocierania się o denormalizację). Zaimplementuj counter cache dla Priorytetów, trzymający ilość zadań o danym priorytecie.
+
+Rozwiązanie: migracja, zmiany w modelu do uaktualnienia licznika, warstwa widoku (zebrane w jakimś miejscu priorytety z ilością zadań w nawiasie).
+
+2. Callbacki. Niech counter-cache się uaktualnia (przelicza) w momencie dodania lub usunięcia Taska. Dokumentacja: ActiveRecord::Callbacks
+
+3. (bardzo dużo bonusowych punktów i szacun na dzielni) Pokryj testami (przynajmniej jednostkowymi modeli) napisany przez siebie kod aplikacji. Dość dokładne i wyczerpujące wprowadzenie w automated testing w Rails znaleźć można w Rails Guides (http://guides.rubyonrails.org/).
