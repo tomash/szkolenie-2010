@@ -2,6 +2,7 @@
 
 # Rails -- podstawy 
 ## część druga:
+# ActiveRecord,
 # Kontrolery i Widoki
 ### Tomek "Tomash" Stachewicz
 #### Szkolenie Ruby On Rails, 2010-04-13

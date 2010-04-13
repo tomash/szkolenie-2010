@@ -1,6 +1,8 @@
 !SLIDE title-slide
 
-# That's all, folks!
+# Wiecie już bardzo dużo
+
+## Zacznijcie pisać jakąś aplikację w RoR (jeśli jeszcze nie zaczęliście)
 
 ## pytania?
 
