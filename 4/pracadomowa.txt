@@ -1,0 +1,9 @@
+Na poprzednich szkoleniach były tutaj różne odjechane zadania po czwartym szkoleniu -- dorobienie walidacji, kolejnego modelu, jakichś zmian w formularzach itd.
+
+Ale stwierdziłem że to bez sensu. Czwarta praca domowa składa się z dwóch bardzo "otwartych" zadań:
+
+1. Zastanów się, czego oczekujsz od prostej aplikacji jaką rozwijamy (czyli "ToDo list"). W razie braku pomysłów możesz się inspirować już istniejącymi na sieci serwisami tego typu. Zaimplementuj jeden z wymyślonych / oczekiwanych "ficzerów", wedle uznania. Spróbuj wymyślić coś, co będzie choć trochę wyzwaniem i wymagało poczytania dokumentacji Ruby i Rails.
+
+2. Jeśli jeszcze nie jesteś w trakcie -- rozpocznij jakiś swój hobbystyczny projekt, czyli aplikację webową napisaną w Ruby On Rails.
+
+Oczywiście pokazania kodu z rozwiązaniem oczekuję wyłącznie w przypadku zadania pierwszego, hobby-project każdy robi dla siebie.
