@@ -1,7 +1,7 @@
 [
   {"section":"intro"},
   {"section":"authentication"},
-  {"section":"restful_auth"},
+  {"section":"auth_solutions"},
   {"section":"extending"},
   {"section":"outro"}
 ]
