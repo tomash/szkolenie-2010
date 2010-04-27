@@ -7,22 +7,20 @@ div.fieldWithErrors textarea{
 </style>
 
 <h1>Zadania do wykonania</h1>
-<% @tasks.each do |t| %>
-  <p><%= t.title %>
-    <% if t.priority %>
-      <b><%= t.priority.name %></b>
-    <% end %>
-    <%= t.description %>
-  </p>
-<% end %>
+<div id="task_list">
+  <% @tasks.each do |t| %>
+    <%= render :partial => "task", :locals => {:task => t} %>
+  <% end %>
+</div>
 <h2>Dodaj zadanie</h2>
 
 <%= error_messages_for :task %>
 
-<% form_for :task, 
+<% remote_form_for :task, 
      :url => {:controller => :tasks,
               :action => :create
-             } do |f| %>
+             },
+      :complete => "taskCreated(request)" do |f| %>
   <div><%= f.text_field :title %></div>
   <%= error_message_on @task, :title %>
   <div><%= f.text_area :description %></div>
@@ -30,3 +28,12 @@ div.fieldWithErrors textarea{
   <div><%= submit_tag "zapisz" %></div>
 <% end %>
 
+<script>
+function taskCreated(request)
+{
+  var tasklist = $('task_list');
+  tasklist.insert({bottom: request.responseText}); 
+}
+  
+
+</script>
