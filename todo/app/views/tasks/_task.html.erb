@@ -1,4 +1,4 @@
-<p><%= task.title %>
+<p><%= link_to task.title, task_path(task) %>
   <% if task.priority %>
     <b><%= task.priority.name %></b>
   <% end %>

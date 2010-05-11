@@ -3,6 +3,11 @@ class TasksController < ApplicationController
     @tasks = Task.all
   end
 
+  def show
+    @task = Task.find(params[:id])
+    render :json => @task
+  end
+
   def create
     @task = Task.new(params[:task])
     @task.save!

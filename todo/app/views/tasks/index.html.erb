@@ -17,9 +17,7 @@ div.fieldWithErrors textarea{
 <%= error_messages_for :task %>
 
 <% remote_form_for :task, 
-     :url => {:controller => :tasks,
-              :action => :create
-             },
+     :url => tasks_path,
       :complete => "taskCreated(request)" do |f| %>
   <div><%= f.text_field :title %></div>
   <%= error_message_on @task, :title %>
