@@ -6,6 +6,7 @@ class TaskTest < ActiveSupport::TestCase
     assert_equal(t.description, "opis zadania")
     t.save
     assert_equal(t.description, "opis zadania ...ale urwal!")
+    assert_nil(t.priority)
   end
 
 end
