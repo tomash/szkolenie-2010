@@ -1,8 +1,11 @@
 require 'test_helper'
 
 class TaskTest < ActiveSupport::TestCase
-  # Replace this with your real tests.
-  test "the truth" do
-    assert true
+  test "should end with 'ale urwal'" do
+    t = Task.new(:title => "tytul 1", :description => "opis zadania")
+    assert_equal(t.description, "opis zadania")
+    t.save
+    assert_equal(t.description, "opis zadania ...ale urwal!")
   end
+
 end
